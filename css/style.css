@@ -35,6 +35,7 @@ footer, header, hgroup, menu, nav, section {
     display: block;
 }
 body {
+    font-family: 'Roboto', sans-serif;
     line-height: 1;
 }
 ol, ul {
@@ -44,14 +45,14 @@ ol, ul {
 /* Start of Custom Styles */
 .content {
     padding: 0 15px;
+    margin: 0 auto;
+    width: 970px;
 }
 /* Navigation Section */
 .top-navigation {
     background-color: #fff;
 }
 .top-navigation > .content {
-    margin: 0 auto;
-    width: 970px;
     height: 70px;
 }
 .top-navigation .logo {
@@ -59,7 +60,7 @@ ol, ul {
 }
 .top-navigation .links {
     float: right;
-    font-family: 'Roboto', sans-serif;
+    
     color: #838994;
     font-size: 16px;
     margin-top: 25px;
@@ -76,4 +77,13 @@ ol, ul {
 .top-navigation .links li:hover {
     cursor: pointer;
     color: #333333;
+}
+/* background image */
+.introduction {
+    background-image: url('../images/first-background.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
+    background-position: 0 bottom;
 }
