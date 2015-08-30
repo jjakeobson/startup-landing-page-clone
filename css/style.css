@@ -86,8 +86,18 @@ ol, ul {
     background-size: cover;
     height: 45.938rem;
     background-position: 0 bottom;
+    overflow: auto;
 }
 .intro, 
-.bring {
+.bring, {
+    color: white;
     text-align: center;
+}
+.big-button {
+    margin: 0 auto;
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 16px 26px;
+    line-height: 1.33;
 }
