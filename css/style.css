@@ -87,3 +87,7 @@ ol, ul {
     height: 45.938rem;
     background-position: 0 bottom;
 }
+.intro, 
+.bring {
+    text-align: center;
+}
