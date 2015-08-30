@@ -88,8 +88,7 @@ ol, ul {
     background-position: 0 bottom;
     overflow: auto;
 }
-.intro, 
-.bring, {
+.intro .bring  {
     color: white;
     text-align: center;
 }
@@ -100,4 +99,12 @@ ol, ul {
     border-radius: 4px;
     padding: 16px 26px;
     line-height: 1.33;
+}
+.cases .devices {
+    width: 33.3333333%;
+    display: inline-block;
+    /* styles to assist with debugging */
+    border: 1px solid black;
+    box-sizing: border-box;
+    height: 4em;
 }
